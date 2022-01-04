@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  background: $darkerGray;
+	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $white;
+  color: $darkerGray;
   font-weight: bold;
 
   line-height: 1.7;
@@ -156,7 +156,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $darkerGray;
+  border-bottom: 1px solid $lightGray;
 
   @include mobile {
     text-align: center;
@@ -275,7 +275,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $darkGray;
+  background-color: $lightGray;
 }
 
 footer {
